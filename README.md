@@ -1,3 +1,1 @@
-If you have an idea that can improve humanity in any way, open an issue and we'll discuss it together.
-
-You can also browse the active issues and contribute on what you want.
+If you have an idea that can improve humanity in any way, create a pull request with a markdown file describing your idea inside its respective topic folder. You can also create pull requests editing an existing idea and describing the reasoning behind your changes.
