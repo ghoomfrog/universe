@@ -4,7 +4,7 @@ You can also create pull requests editing an existing idea and describing the re
 
 # Guidelines
 
-1. Be selfless
+1. Be selfless and think global
 2. Write in English
 3. Write as concisely as possible (if you have doubts about its clarity, clarify it more!)
 4. If relevant, include one or more diagrams in your file ([app.diagrams.net](https://app.diagrams.net) is a free diagram tool)
