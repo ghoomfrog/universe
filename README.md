@@ -4,7 +4,7 @@ If you have an idea that can improve humanity but you can't realize it, create a
 
 You can also create pull requests enhancing an existing idea and describing the reasoning behind your changes. If you want to contribute in other ways to an idea, open a labeled issue about it.
 
-[^topics]: e.g. computer science, health and geology
+[^topics]: e.g. mechanics, health or computer science
 
 # Guidelines
 
