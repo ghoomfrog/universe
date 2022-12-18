@@ -8,5 +8,5 @@ You can also create pull requests editing an existing idea and describing the re
 2. Write in English
 3. Write as concisely as possible (if you have doubts about its clarity, clarify it more!)
 4. If relevant, include one or more diagrams in your file ([app.diagrams.net](https://app.diagrams.net) is a free diagram tool)
-5. Put the name of your idea in the filename, all in lowercase
+5. Put the name of your idea in the filename, all in lowercase (spaces are fine)
 6. Include your GitHub username at the end of your file (e.g. 'By octocat.')
