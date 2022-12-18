@@ -1,4 +1,4 @@
-This repository hosts world-improving ideas stored as markdown files in their respective (main) topic folders.
+This repository hosts world-improving ideas that one can't realize, stored as markdown files in their respective (main) topic folders.
 
 If you have an idea that can improve humanity in any way, create a pull request with a markdown file describing your idea inside its respective topic folder (create the folder if it doesn't exist yet, all in lowercase).
 
