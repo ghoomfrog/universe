@@ -6,7 +6,7 @@ You can also create pull requests enhancing an existing idea and describing the 
 
 [^topics]: e.g. mechanics, health or computer science
 
-# Guidelines
+# Rules
 
 1. No sexual content outside the context of improving humanity
 2. Be selfless and think big
