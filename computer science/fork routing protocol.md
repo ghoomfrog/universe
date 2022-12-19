@@ -16,6 +16,12 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 Field      |Size      |Description
 -----------|----------|-----------
-Address End|64b       |last bit index of address (address size minus 1)
-Origin     |1b        |*0* = the global router; *1* = this router
-Address    |*variable*|address relative to origin
+Address    |*variable*|an [FRP address](#address)
+
+### Address
+
+Field |Size      |Description
+------|----------|-----------
+End   |64b       |last bit index of path (path size minus 1)
+Origin|1b        |*0* = the global router; *1* = this router
+Path  |*variable*|series of route bits relative to origin
