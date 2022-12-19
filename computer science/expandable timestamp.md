@@ -1,6 +1,6 @@
 # Expandable Timestamp
 
-An expandable timestamp is a variable-sized millisecond-precise timestamp.
+An expandable timestamp (XT) is a variable-sized millisecond-precise timestamp.
 
 ### Structure
 
