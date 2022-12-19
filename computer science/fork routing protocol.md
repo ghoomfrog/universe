@@ -10,7 +10,7 @@ To enable absolute addressing:
 
 Absolute addressing requires fork routers to convert the absolute address to a relative one which requires them to store their own absolute address for calculation. To make sure all fork routers can access each other, their second route, *their reline*, points to the router that points to their input router: forming a circular reference.
 
-### FRP Header
+### Header
 
 Field       |Size
 ------------|----
