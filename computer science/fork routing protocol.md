@@ -14,8 +14,8 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 ### Header
 
-Field       |Size      |Description
-------------|----------|-----------
-Address Size|64b       |address size in bits
-Origin      |1b        |*0* = the global router; *1* = this router
-Address     |*variable*|address relative to origin
+Field      |Size      |Description
+-----------|----------|-----------
+Address End|64b       |last bit index of address (address size minus 1)
+Origin     |1b        |*0* = the global router; *1* = this router
+Address    |*variable*|address relative to origin
