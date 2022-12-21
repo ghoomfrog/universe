@@ -1,6 +1,6 @@
-This repository hosts world-improving ideas that the authors can't realize, stored as markdown files in their respective (main) topic[^topics] folders.
+This repository hosts scientific ideas stored as markdown files in their respective (main) topic[^topics] folders.
 
-If you have an idea that can improve humanity but you can't realize it, create a pull request with a markdown file describing your idea inside its respective topic folder (create the folder if it doesn't exist yet, all in lowercase without abbreviation).
+If you have an idea, create a pull request with a markdown file describing it inside its respective topic folder (create the folder if it doesn't exist yet, all in lowercase without abbreviation).
 
 You can also create pull requests enhancing an existing idea and describing the reasoning behind your changes. If you want to contribute in other ways to an idea, open a labeled issue about it.
 
