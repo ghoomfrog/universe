@@ -2,7 +2,7 @@ This repository hosts scientific ideas stored as markdown files in their respect
 
 If you have an idea, create a pull request with a markdown file describing it inside its respective topic folder (create the folder if it doesn't exist yet, all in lowercase without abbreviation).
 
-You can also create pull requests enhancing an existing idea and describing the reasoning behind your changes. If you want to contribute in other ways to an idea, open a labeled issue about it.
+You can also create pull requests, enhancing an existing idea and describing the reasoning behind your changes, or just fixing typos and such. If you want to contribute in other ways to an idea, open a labeled issue about it.
 
 [^topics]: e.g. mechanics, health or computer science
 
