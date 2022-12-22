@@ -10,6 +10,8 @@ You can also create pull requests, enhancing an existing idea and describing the
 
 1. No sexual content outside science
 2. Write in English
-3. Write as concisely as possible (if you have doubts about its clarity, clarify it more!)
-4. If relevant, include one or more diagrams in your file ([app.diagrams.net](https://app.diagrams.net) is a free diagram tool)
+3. Write as concisely as possible
+4. If relevant, include one or more diagrams in your file[^diagram-tool]
 5. Put the full name of your idea (no abbreviation) in the filename, all in lowercase (all characters are allowed)
+
+[^diagram-tool]: [app.diagrams.net](https://app.diagrams.net) is a free diagram tool
