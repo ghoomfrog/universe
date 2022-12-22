@@ -8,7 +8,7 @@ This configuration allows routers to be accessed using relative addresses where 
 
 To enable absolute addressing:
 1. a global router is chosen as the router where addresses relative to it are considered absolute
-2. the header has an *origin* bit that specifies whether the address is absolute (0) or relative (1)
+2. addresses have an *origin* bit that specifies whether the address is absolute (0) or relative (1)
 
 Absolute addressing requires fork routers to convert the absolute address to a relative one which requires them to store their own absolute address for calculation. To make sure all fork routers can access each other, their second route, *their reline*, points to the router that points to their input router: forming a circular reference.
 
@@ -16,12 +16,4 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 Field      |Size      |Description
 -----------|----------|-----------
-Address    |*variable*|an [FRP address](#address)
-
-### Address
-
-Field |Size      |Description
-------|----------|-----------
-End   |64b       |last bit index of path (path size minus 1)
-Origin|1b        |*0* = the global router; *1* = this router
-Path  |*variable*|series of route bits relative to origin
+Address    |*variable*|an [intlet-based arbitrary-precision integer](https://github.com/ghoomfrog/universe/blob/main/computer%20science/intlet-based%20arbitrary-precision%20integer.md) where the first bit of the actual integer represents the origin (*0* = the global router; *1* = this router) and the remaining bits represent the routes relative to the origin
