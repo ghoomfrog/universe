@@ -2,7 +2,7 @@
 
 ![Fork-Routing](https://user-images.githubusercontent.com/35694451/208344240-cae75190-51f8-4d8c-88c7-c317a69d08fa.png)
 
-The Fork Routing Protocol (FRP) is a routing protocol where each router, *fork router*, is essentially configured with one input line and two routes.
+The Fork Routing Protocol (FRP) is a routing protocol where each router, *fork router*, is configured with one input line and two routes.
 
 This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route.
 
