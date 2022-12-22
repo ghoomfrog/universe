@@ -8,7 +8,7 @@ You can also create pull requests enhancing an existing idea and describing the 
 
 # Rules
 
-1. No sexual content outside of improving humanity
+1. No sexual content outside science
 2. Be selfless and think big
 3. Write in English
 4. Write as concisely as possible (if you have doubts about its clarity, clarify it more!)
