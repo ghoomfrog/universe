@@ -9,9 +9,10 @@ You can also create pull requests, enhancing an existing idea and describing the
 # Rules
 
 1. No sexual content outside science
-2. Write in English
-3. Write as concisely as possible
-4. If relevant, include one or more diagrams in your file[^diagram-tool]
-5. Put the full name of your idea (no abbreviation) in the filename, all in lowercase (all characters are allowed)
+2. Try to avoid realistic sexual imagery if possible
+3. Write in English
+4. Write as concisely as possible
+5. If relevant, include one or more diagrams in your file[^diagram-tool]
+6. Put the full name of your idea (no abbreviation) in the filename, all in lowercase (all characters are allowed)
 
 [^diagram-tool]: [app.diagrams.net](https://app.diagrams.net) is a free diagram tool
