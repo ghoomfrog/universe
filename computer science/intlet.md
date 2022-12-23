@@ -1,6 +1,6 @@
-# Intlet-Based Arbitrary-Precision Integer
+# Intlet
 
-An intlet-based arbitrary-precision integer constitutes of a sequence of <ins>intlets</ins>:
+An intlet is a partial object that can sequentially form an arbitrary-precision integer. An intlet is structured as follows:
 
 Field   |Size|Description
 --------|----|-----------
