@@ -16,4 +16,4 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 Field      |Size      |Description
 -----------|----------|-----------
-Address    |*variable*|an [intlet-based arbitrary-precision integer](https://github.com/ghoomfrog/universe/blob/main/computer%20science/intlet-based%20arbitrary-precision%20integer.md) where the first bit of the actual integer represents the origin (*0* = the global router; *1* = this router) and the remaining bits represent the routes, relative to the origin
+Address    |*variable*|a [chain](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) where the first bit of its content represents the origin (*0* = the global router; *1* = this router) and the remaining bits represent the routes, relative to the origin
