@@ -1,6 +1,6 @@
-# Numlet-Based Arbitrary-Precision Number
+# Numlet
 
-A numlet-based arbitrary-precision number constitutes of a sequence of <ins>numlets</ins>:
+A numlet is a partial object that can sequentially form an arbitrary-precision number. A numlet is structured as follows:
 
 Field     |Size|Description
 ----------|----|-----------
