@@ -8,7 +8,7 @@ A limited variable is a variable whose domain[^domain] is finite, in contrast wi
 
 ### Possibility
 
-A possibility is a limited variable defined in $\set{0, 1}$, used as a factor with another value to describe possibility of existence.
+A possibility is a limited variable defined in $\set{0, 1}$, used as a factor with another value to describe a possibility of existence.
 
 ### Bet
 
