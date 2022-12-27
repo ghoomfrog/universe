@@ -2,7 +2,7 @@
 
 A limited variable is a variable whose domain[^domain] is finite, in contrast with conventional <ins>unlimited</ins> variables.
 
-[^domain]: the set of values it can represent
+[^domain]: the set of possible values it can represent
 
 ## Existential Arithmetic
 
