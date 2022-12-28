@@ -1,3 +1,5 @@
 # Bunch
 
-A bunch is a structure where there are $n$ objects of a type $T$: $\_nT$ where $n$ is a real number.
+A bunch is a homogeneous[^homogeneous] multiset containing $n$ instances of an element $E$: $\_nE$ where $n$ is a real number.
+
+[^homogeneous]: containing instances of only one element
