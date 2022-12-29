@@ -1,6 +1,6 @@
 # Numlet
 
-A numlet is a partial object that can sequentially form an arbitrary-precision number. A numlet is structured as follows:
+A numlet is a part that can sequentially form an arbitrary-precision number. A numlet is structured as follows:
 
 Field     |Size|Description
 ----------|----|-----------
