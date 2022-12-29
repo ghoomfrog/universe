@@ -4,7 +4,7 @@ If you have an idea, create a pull request with a markdown file describing it in
 
 You can also create pull requests, enhancing an existing idea and describing the reasoning behind your changes, or just fixing typos and such. If you want to contribute in other ways to an idea, open a labeled issue about it.
 
-[^new]: new in the sense that the authors thinks they're new
+[^new]: new in the sense that their authors thinks they're new
 [^topics]: e.g. mechanics, health or computer science
 
 # Rules
