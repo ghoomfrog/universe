@@ -14,9 +14,9 @@ Both parts default to 0.
 
 Parts are obtained using the following formula:
 
-$$\sum_{f=f_0}^{f_{-1}} 2^{30}f$$
+$$(\sum_{f=f_0}^{f_{-2}} 2^{30}f) + f_{–1}$$
 
-where $f_0$ is the first fragment of the part, and $f_{-1}$ is the last.
+where $f_0$ is the first fragment of the part, $f_{-1}$ is the last, and $f_{–2}$ is the second last.
 
 [^integer-part]: otherwise part of the integer part
 [^vice-versa]: fractional fragments, concatenated together, form the fractional part
