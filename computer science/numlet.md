@@ -10,6 +10,9 @@ Fragment  |30b |integer fragments, [combined](#combining-fragments) together, fo
 
 Both parts default to 0.
 
+[^integer-part]: otherwise part of the integer part
+[^vice-versa]: fractional fragments, [combined](#combining-fragments) together, form the fractional part
+
 ## Combining Fragments
 
 Parts are obtained using the following formula:
@@ -19,6 +22,3 @@ $$(\sum_{f=f_0}^{f_{-2}} 2^{30}f) + f_{–1}$$
 where $f_0$ is the first fragment of the part, $f_{-1}$ is the last, and $f_{–2}$ is the second last.
 
 $f_{–1}$ defaults to $f_{0}$, and $f_{–2}$ defaults to $0$.
-
-[^integer-part]: otherwise part of the integer part
-[^vice-versa]: fractional fragments, concatenated together, form the fractional part
