@@ -4,6 +4,8 @@ If you have an idea, create a pull request with a markdown file describing it in
 
 You can also create pull requests, enhancing an existing idea and describing the reasoning behind your changes, or just fixing typos and such. If you want to contribute in other ways to an idea, open a labeled issue about it.
 
+You can also create a pull request, editing this README.md file (describing the reasoning behind your changes).
+
 [^topics]: e.g. mechanics, health or computer science
 
 # Rules
