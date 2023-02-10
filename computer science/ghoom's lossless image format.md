@@ -10,6 +10,7 @@ Color Mode           |3b  |<ol start="0"><li>Grayscale<li>Red<li>Green<li>Blue<l
 Alpha Mode           |1b  |This bit specifies whether there is an alpha channel
 Explicit Type        |1b  |<ol start="0"><li>Explicit blocks contain channel values<li>Explicit blocks contain a palette color index
 Pixel Array Existence|1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
+Padding Bit          |1b  |
 
 ## Palette
 
