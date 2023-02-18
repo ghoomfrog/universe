@@ -14,6 +14,7 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 ### Header
 
-Field      |Size      |Description
------------|----------|-----------
-Address    |*variable*|a [chain](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) where the first bit of its content represents the origin (*0* = the global router; *1* = this router) and the remaining bits represent the routes, relative to the origin
+Field       |Size      |Description
+------------|----------|-----------
+Address Size|64b       |0 means that the destination is this router
+Address     |*variable*|If the address size is not 0, this field is a 7-bit-fragment [chain](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) where the first bit of its content represents the origin (0 refers to the global router, and 1 refers to this router) and the remaining bits represent the routes, relative to the origin
