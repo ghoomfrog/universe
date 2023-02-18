@@ -4,7 +4,7 @@
 
 The Fork Routing Protocol (FRP) is a routing protocol where each router is configured with one input line, two routes, some output ports and a hotspot.
 
-This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. Each router arithmetically left-shifts the address before forwarding. The destination router sends the payload through all its output ports and its hotspot.
+This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. Each router decrements the address size (if not 0) and arithmetically left-shifts the address (if not empty) before forwarding. The destination router sends the payload through all its output ports and its hotspot.
 
 To enable absolute addressing:
 1. a global router is chosen as the router where addresses relative to it are considered absolute
