@@ -100,11 +100,11 @@ where the key-value pairs are put under anonymous tables.
 * `\\` — `\`
 * `\'` — `'`
 * `\"` — `"`
-* `\u`*`hh`* — the unicode character with the hexadecimal code *`hh`*
-* `\u(`*`...`*`)` — the unicode character with the code from the number literal *`...`*
-* `\ub(`*`...`*`)` — the unicode character with the code from the binary literal *`...`*
-* `\uo(`*`...`*`)` — the unicode character with the code from the octal *`...`*
-* `\ux(`*`...`*`)` — the unicode character with the code from the hexadecimal *`...`*
+* `\u`*`hh`* — the Unicode character with the hexadecimal code *`hh`*
+* `\u(`*`...`*`)` — the Unicode character with the code from the number literal *`...`*
+* `\ub(`*`...`*`)` — the Unicode character with the code from the binary literal *`...`*
+* `\uo(`*`...`*`)` — the Unicode character with the code from the octal *`...`*
+* `\ux(`*`...`*`)` — the Unicode character with the code from the hexadecimal *`...`*
 * `\0` — NUL
 * `\h` — SOH
 * `\x` — STX
