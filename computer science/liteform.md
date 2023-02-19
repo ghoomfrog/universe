@@ -1,6 +1,6 @@
 # Liteform
 
-Liteform is a data interchange format with efficient syntax. It supports many data types, keys (constants), comments and more.
+Liteform is a data interchange format with an efficient syntax. It supports many data types, keys (constants), comments and more.
 
 Here's a demonstration that covers all features of Liteform:
 
@@ -93,7 +93,7 @@ item1
 item2
 ```
 
-where the key-value pairs are put under an anonymous table.
+where the key-value pairs are put under anonymous tables.
 
 ## Escape Sequences
 
