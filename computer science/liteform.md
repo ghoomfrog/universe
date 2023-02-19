@@ -59,7 +59,7 @@ Liteform supports random definitions and selections of things. Here is an exampl
 
 ## Fault Tolerance
 
-These are faulty:
+These two examples are faulty. They include both items and key-value pairs under theh same indentation level:
 
 ```lf
 item1
@@ -93,14 +93,51 @@ item1
 item2
 ```
 
-## Unusual Features
+where the key-value pairs are put under an anonymous table.
 
-Variable names can start with decimal digits as long as they're followed by a letter or underscore.
+## Escape Sequences
 
-```lf
-2b
-6502_specs
-```
+* `\\` — `\`
+* `\'` — `'`
+* `\"` — `"`
+* `\u`*`hh`* — the unicode character with the hexadecimal code *`hh`*
+* `\u(`*`...`*`)` — the unicode character with the code from the number literal *`...`*
+* `\ub(`*`...`*`)` — the unicode character with the code from the binary literal *`...`*
+* `\uo(`*`...`*`)` — the unicode character with the code from the octal *`...`*
+* `\ux(`*`...`*`)` — the unicode character with the code from the hexadecimal *`...`*
+* `\0` — NUL
+* `\h` — SOH
+* `\x` — STX
+* `\X` — ETX
+* `\T` — EOT
+* `\q` — ENQ
+* `\k` — ACK
+* `\a` — BEL
+* `\b` — BS
+* `\t` — TAB
+* `\n` — LF
+* `\v` — VT
+* `\f` — FF
+* `\r` — CR
+* `\o` — SO
+* `\i` — SI
+* `\l` — DLE
+* `\1` — DC1
+* `\2` — DC2
+* `\3` — DC3
+* `\4` — DC4
+* `\K` — NAK
+* `\s` — SYN
+* `\B` — ETB
+* `\c` — CAN
+* `\m` — EM
+* `\S` — SUB
+* `\e` — ESC
+* `\F` — FS
+* `\G` — GS
+* `\R` — RS
+* `\U` — US
+* `\d` — DEL
 
 ## Notes
 
