@@ -2,11 +2,12 @@
 
 Liteform is a data interchange format with efficient syntax. It supports many data types, keys (constants), comments and more.
 
-Here's an example:
+Here's a demonstration that covers all features of Liteform:
 
 ```lf
+\ This is an inline comment
 \(
-  This is a demonstration that covers all features of Liteform.
+  This is a multi-line comment
 \)
 
 ghoom \ ghoom is a table of keys and values
