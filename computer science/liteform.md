@@ -14,7 +14,7 @@ ghoom \ ghoom is a table of keys and values
   name "ghoom"
   age 21 \ The 0b, 0o and 0x prefixes are supported, even for decimals
   screen_ratio 16:9
-  most_used_number_base 0..9 \ This is an integer range
+  most_used_number_base 0..9 \ This is an integer range with a step of 1. You can specify the step as follows: x..y..step
   favorite_interval [0 1] \ This is a mathematical interval. Parentheses are also supported. The opening and closing brackets can be of different types (square or round)
   favorite_interval_shorthand 0...1 \ x...y always expands to [x y]
   favorite_neon_color #f00 \ The alpha channel and double-digit channel values are also supported
