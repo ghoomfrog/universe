@@ -1,6 +1,6 @@
 # Overwrite/Insert Difference Format
 
-The Overwrite/Insert Difference Format (OIDF) is an efficient, computer-friendly format for describing the byte-level difference between two pieces of nullphobic[^nullphobic] data. The difference is a sequence of structures in the following format.
+The Overwrite/Insert Difference Format (OIDF) is an efficient, computer-friendly format for describing the byte-level difference between two pieces of nullphobic[^nullphobic] data. The difference is a sequence of structures in the following format:
 
 Field          |Size      |Description
 ---------------|----------|-----------
