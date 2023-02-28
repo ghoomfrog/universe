@@ -141,5 +141,5 @@ where the key-value pairs are put under anonymous tables.
 
 ## Notes
 
-* The first indentation, whether a tab or a series of spaces, is taken as the only valid indentation throughout the whole document
-* All Unicode letters are supported in key names
+* The first indentation, whether a tab or a series of spaces, is taken as the only valid indentation throughout the whole document.
+* All Unicode letters are supported in key names.
