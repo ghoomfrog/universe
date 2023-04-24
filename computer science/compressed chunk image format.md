@@ -8,7 +8,7 @@ This document speficies CCIF 1.
 
 Field                 |Size|Description
 ----------------------|----|-----------
-Version               |8b  |as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md), starting from 0 (which is v1, and 1 is v2, etc)
+Version               |8b  |version + 1 as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md)
 Width                 |16b |image width + 1
 Height                |16b |image height + 1
 Color mode            |3b  |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
