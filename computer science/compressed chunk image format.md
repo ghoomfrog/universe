@@ -9,11 +9,13 @@ Field                 |Size|Description
 Width                 |16b |Image width + 1
 Height                |16b |Image height + 1
 Color mode            |3b  |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
-Color depth           |1b  |<ol start="0"><li>8 bits<li>16 bits<br><br>Numbers whose size is equal to Color Depth are said to be *color-deep*.
+Color depth           |1b  |<ol start="0"><li>8 bits<li>16 bits
 Alpha mode            |1b  |This bit specifies whether there is an alpha channel
 Explicit Type         |1b  |<ol start="0"><li>Explicit chunks contain channel values<li>Explicit chunks contain a palette color index
 Pixel array existence |1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
 Padding               |1b  |
+
+Numbers whose size is equal to Color Depth are said to be *color-deep*.
 
 ## Palette
 
