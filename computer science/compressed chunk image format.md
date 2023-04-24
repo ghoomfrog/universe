@@ -25,7 +25,7 @@ If the explicit type is 1, a palette definition immediately follows the header. 
 
 ## Pixel Arrays
 
-If the pixel array existence is 1, an 8-bit array count and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count followed by [chunks](#chunks).
+If the pixel array existence is 1, an 8-bit array count + 1 and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count followed by [chunks](#chunks).
 
 ## Chunks
 
