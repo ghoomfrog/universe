@@ -21,11 +21,11 @@ Pixel array existence |1b     |<ol start="0"><li>Pixel arrays aren't defined<li>
 
 ## Palette
 
-If the explicit type is 1, a palette definition immediately follows the header. It contains an 8-bit item count followed by [chunks](#chunks). Explicit chunks in the palette can't be palette item indices: only channel values.
+If the explicit type is 1, a palette definition immediately follows the header. It contains an 8-bit item count + 1 followed by [chunks](#chunks). Explicit chunks in the palette can't be palette item indices: only channel values.
 
 ## Pixel Arrays
 
-If the pixel array existence is 1, an 8-bit array count + 1 and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count followed by [chunks](#chunks).
+If the pixel array existence is 1, an 8-bit array count + 1 and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count + 1 followed by [chunks](#chunks).
 
 ## Chunks
 
