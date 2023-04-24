@@ -1,6 +1,6 @@
 # Limited Variable
 
-A limited variable is a variable whose domain[^domain] is finite, in contrast with conventional <ins>unlimited</ins> variables.
+A limited variable is a variable whose domain[^domain] is finite.
 
 [^domain]: the set of possible values it can represent
 
