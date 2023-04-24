@@ -4,16 +4,16 @@ Compressed Chunk Image Format (CCIF) is a lossless image format that uses advanc
 
 ## Header
 
-Field        |Size|Description
--------------|----|-----------
-Width        |16b |Image width + 1
-Height       |16b |Image height + 1
-Color Mode   |3b  |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
-Color Depth  |1b  |<ol start="0"><li>8 bits<li>16 bits<br><br>Numbers whose size is equal to Color Depth are said to be *color-deep*.
-Alpha Mode   |1b  |This bit specifies whether there is an alpha channel
-Explicit Type|1b  |<ol start="0"><li>Explicit chunks contain channel values<li>Explicit chunks contain a palette color index
-Pixel Arrays |1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
-Padding Bit  |1b  |
+Field                 |Size|Description
+----------------------|----|-----------
+Width                 |16b |Image width + 1
+Height                |16b |Image height + 1
+Color mode            |3b  |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
+Color depth           |1b  |<ol start="0"><li>8 bits<li>16 bits<br><br>Numbers whose size is equal to Color Depth are said to be *color-deep*.
+Alpha mode            |1b  |This bit specifies whether there is an alpha channel
+Explicit Type         |1b  |<ol start="0"><li>Explicit chunks contain channel values<li>Explicit chunks contain a palette color index
+Pixel array existence |1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
+Padding               |1b  |
 
 ## Palette
 
@@ -21,7 +21,7 @@ If the explicit type is 1, a palette definition immediately follows the header. 
 
 ## Pixel Arrays
 
-If Pixel Arrays is 1, an 8-bit array count and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count followed by [chunks](#chunks).
+If the pixel array existence is 1, an 8-bit array count and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count followed by [chunks](#chunks).
 
 ## Chunks
 
