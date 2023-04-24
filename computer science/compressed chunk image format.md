@@ -43,4 +43,4 @@ Poly-Indexive    |6        |An 8-bit pixel array index
 
 ## Padding Bits
 
-Padding bits are non-contiguously sequenced into groups of three that act as tags for the following chunks outside their current group. Padding bit tags take precedence over regular tags inside full difference chunks.
+Padding bits (starting from the header's padding) are non-contiguously sequenced into groups of three that act as tags for the following chunks outside their current group. Padding bit tags take precedence over regular tags inside full difference chunks.
