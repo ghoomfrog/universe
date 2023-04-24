@@ -2,7 +2,7 @@
 
 Compressed Chunk Image Format (CCIF) is a lossless image format that uses advanced compression techniques. It supports a variety of color modes and includes features such as transparency support and flexible palette definitions. It also offers faster decoding times.
 
-This document speficies CCIF v1.
+This document speficies CCIF 1.
 
 ## Header
 
