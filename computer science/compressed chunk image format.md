@@ -15,7 +15,7 @@ Explicit Type         |1b  |<ol start="0"><li>Explicit chunks contain channel va
 Pixel array existence |1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
 Padding               |1b  |
 
-* Numbers whose size is equal to Color Depth are said to be *color-deep*.
+\* Numbers whose size is equal to Color Depth are said to be *color-deep*.
 
 ## Palette
 
