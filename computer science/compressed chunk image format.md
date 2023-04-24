@@ -21,7 +21,7 @@ Pixel array existence |1b     |<ol start="0"><li>Pixel arrays aren't defined<li>
 
 ## Palette
 
-If the explicit type is 1, a palette definition immediately follows the header. It contains an 8-bit item count + 1 followed by [chunks](#chunks). Explicit chunks in the palette can't be palette item indices: only channel values.
+If the explicit type is 1, a palette definition immediately follows the header. It contains an 8-bit item count + 1 followed by [chunks](#chunks). Explicit chunks in the palette can only be channel values.
 
 ## Pixel Arrays
 
