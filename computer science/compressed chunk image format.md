@@ -34,12 +34,12 @@ Chunks are sequenced in groups of three preceded by a padding bit and three 3-bi
 Chunk Type       |Tag Value|Description
 -----------------|---------|-----------
 Explicit         |0        |<ul><li>If the explicit type is 0, the chunk is an array of color-deep channel values (ending with an alpha value if the alpha mode is 1)<li>If the explicit type is 1, the chunk is a 8-bit palette item index
-Mono-Indexive    |1        |an 8-bit relative chunk index, referencing farther preceding chunks as it increases where 0 refers to the immediately preceding chunk[^preceding]
-Run-Length       |2        |an 8-bit run length of the preceding chunk[^preceding]
-Full Difference  |3        |<ul><li>If there is one channel, the chunk is a 4-bit delta followed by a padding bit and a 3-bit tag for the next chunk outside the current group<li>If there are two channels, the chunk is two respective 4-bit deltas<li>If there are three channels, the chunk is three respective 4-bit deltas followed by a padding bit and a 3-bit tag for the next chunk outside the current group
-Luma Difference  |4        |a color-deep luma delta from the preceding chunk[^preceding]
-Chroma Difference|5        |<ul><li>If the color mode is bi-channel, the chunk is a color-deep chroma delta from the preceding chunk[^preceding]<li>If the color mode is tri-channel, the chunk is one 4-bit A chroma delta and one 4-bit B chroma delta from the preceding chunk[^preceding]
-Poly-Indexive    |6        |an 8-bit pixel array index
+Micro-indexive   |1        |an 8-bit relative chunk index, referencing farther preceding chunks as it increases where 0 refers to the immediately preceding chunk[^preceding]
+Run-length       |2        |an 8-bit run length of the preceding chunk[^preceding]
+Full difference  |3        |<ul><li>If there is one channel, the chunk is a 4-bit delta followed by a padding bit and a 3-bit tag for the next chunk outside the current group<li>If there are two channels, the chunk is two respective 4-bit deltas<li>If there are three channels, the chunk is three respective 4-bit deltas followed by a padding bit and a 3-bit tag for the next chunk outside the current group
+Luma difference  |4        |a color-deep luma delta from the preceding chunk[^preceding]
+Chroma difference|5        |<ul><li>If the color mode is bi-channel, the chunk is a color-deep chroma delta from the preceding chunk[^preceding]<li>If the color mode is tri-channel, the chunk is one 4-bit A chroma delta and one 4-bit B chroma delta from the preceding chunk[^preceding]
+Macro-indexive   |6        |an 8-bit pixel array index
 
 [^preceding]: if the preceding chunk doesn't exist, it defaults to fully opaque black
 
