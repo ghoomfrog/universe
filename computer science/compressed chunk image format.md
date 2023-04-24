@@ -17,7 +17,7 @@ Alpha mode            |1b     |whether there is an alpha channel
 Explicit Type         |1b     |<ol start="0"><li>Explicit chunks contain channel values.<li>Explicit chunks contain a palette item index.
 Pixel array existence |1b     |<ol start="0"><li>Pixel arrays aren't defined.<li>Pixel arrays are defined.
 
-\* Numbers whose bit size is equal to Color Depth are said to be *color-deep*.
+\* Numbers whose bit count is equal to Color Depth are said to be *color-deep*.
 
 ## Palette
 
