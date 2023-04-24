@@ -1,4 +1,4 @@
-# Built-In Ownership Random Access Memory
+# Built-in Ownership Random Access Memory
 
 Built-in ownership random access memory (BIORAM) is RAM where each cell is paired with an owner address: the address of the process for which this cell is allocated.
 
