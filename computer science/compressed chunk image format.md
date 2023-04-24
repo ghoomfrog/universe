@@ -15,7 +15,7 @@ Color mode            |3b     |<ol start="0"><li>Monochromatic<li>Red<li>Green<l
 Color depth*          |2b     |<ol start="0"><li>8 bits<li>16 bits<li>24 bits<li>32 bits
 Alpha mode            |1b     |whether there is an alpha channel
 Palette existence     |1b     |whether a palette is defined
-Pixel array existence |1b     |whether pixel arrays are defined
+Macro existence       |1b     |whether macros are defined
 
 \* Numbers whose bit count is equal to Color Depth are said to be *color-deep*.
 
@@ -23,9 +23,9 @@ Pixel array existence |1b     |whether pixel arrays are defined
 
 If the palette existence is 1, a palette definition immediately follows the header. It contains an 8-bit item count + 1 followed by [chunks](#chunks). Explicit chunks in the palette can only be channel values.
 
-## Pixel Arrays
+## Macros
 
-If the pixel array existence is 1, an 8-bit array count + 1 and pixel array definitions immediately follow the palette (or header if there is no palette). Each array contains an 8-bit chunk count + 1 followed by [chunks](#chunks).
+If the macro existence is 1, an 8-bit array count + 1 and macro definitions immediately follow the palette (or header if there is no palette). Each macro contains an 8-bit chunk count + 1 followed by [chunks](#chunks).
 
 ## Chunks
 
@@ -40,7 +40,7 @@ Run-length       |3        |an 8-bit run length of the preceding chunk[^precedin
 Full difference  |4        |<ul><li>If there is one channel, the chunk is a 4-bit delta followed by a padding bit and a 3-bit tag for the next chunk outside the current group.<li>If there are two channels, the chunk is two respective 4-bit deltas<li>If there are three channels, the chunk is three respective 4-bit deltas followed by a padding bit and a 3-bit tag for the next chunk outside the current group.
 Luma difference  |5        |a color-deep luma delta from the preceding chunk[^preceding]
 Chroma difference|6        |<ul><li>If the color mode is bi-channel, the chunk is a color-deep chroma delta from the preceding chunk.[^preceding]<li>If the color mode is tri-channel, the chunk is one 4-bit A chroma delta and one 4-bit B chroma delta from the preceding chunk.[^preceding]
-Macro-indexive   |7        |an 8-bit pixel array index
+Macro-indexive   |7        |an 8-bit macro index
 
 [^preceding]: if the preceding chunk doesn't exist, it defaults to fully opaque black
 
