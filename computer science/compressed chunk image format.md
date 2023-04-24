@@ -6,16 +6,16 @@ This document speficies CCIF 1.
 
 ## Header
 
-Field                 |Size|Description
-----------------------|----|-----------
-Version               |8b  |version + 1 as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md)
-Width                 |16b |image width + 1
-Height                |16b |image height + 1
-Color mode            |3b  |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
-Color depth*          |2b  |<ol start="0"><li>8 bits<li>16 bits<li>24 bits<li>32 bits
-Alpha mode            |1b  |whether there is an alpha channel
-Explicit Type         |1b  |<ol start="0"><li>Explicit chunks contain channel values<li>Explicit chunks contain a palette color index
-Pixel array existence |1b  |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
+Field                 |Size   |Description
+----------------------|-------|-----------
+Version               |8b min.|version + 1 as an 7-bit-fragment [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md)
+Width                 |16b    |image width + 1
+Height                |16b    |image height + 1
+Color mode            |3b     |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
+Color depth*          |2b     |<ol start="0"><li>8 bits<li>16 bits<li>24 bits<li>32 bits
+Alpha mode            |1b     |whether there is an alpha channel
+Explicit Type         |1b     |<ol start="0"><li>Explicit chunks contain channel values<li>Explicit chunks contain a palette color index
+Pixel array existence |1b     |<ol start="0"><li>Pixel arrays aren't defined<li>Pixel arrays are defined
 
 \* Numbers whose size is equal to Color Depth are said to be *color-deep*.
 
