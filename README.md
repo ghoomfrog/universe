@@ -15,6 +15,6 @@ You can also create a pull request, editing this README.md file (describing the 
 3. Write in English
 4. Write as concisely as possible
 5. If relevant, include one or more diagrams in your file[^diagram-tool]
-6. Put the full name of your idea in English (no abbreviation) in the filename (spaces and apostrophes are allowed)
+6. Put the full name of your idea in English (no abbreviation) in the filename (spaces, apostrophes and dashes are allowed)
 
 [^diagram-tool]: [app.diagrams.net](https://app.diagrams.net) is a free diagram tool
