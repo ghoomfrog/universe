@@ -1,5 +1,3 @@
 # Built-in Ownership Random Access Memory
 
-Built-in ownership random access memory (BIORAM) is RAM where each cell is paired with an owner address: the address of the process for which this cell is allocated.
-
-This model doubles the cost of the total cells in a RAM chip but tremendously decreases allocation/deallocation time which would traditionally be done using [memory management units](https://en.wikipedia.org/wiki/Memory_management_unit).
+BIORAM, or Built-in Ownership Random Access Memory, is a type of RAM where each cell is associated with the address of the process for which it is allocated. Although this model incurs an additional cost for the total number of cells in a RAM chip, it significantly reduces the time required for allocation, deallocation and ownership transferal operations that are traditionally performed using memory management units.
