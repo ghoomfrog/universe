@@ -25,7 +25,7 @@ If the palette existence is 1, a palette definition immediately follows the head
 
 ## Macros
 
-If the macro existence is 1, an 8-bit array count + 1 and macro definitions immediately follow the palette (or header if there is no palette). Each macro contains an 8-bit chunk count + 1 followed by [chunks](#chunks).
+If the macro existence is 1, an 8-bit macro count + 1 and macro definitions immediately follow the palette (or header if there is no palette). Each macro contains an 8-bit chunk count + 1 followed by [chunks](#chunks).
 
 ## Chunks
 
