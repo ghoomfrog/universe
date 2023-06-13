@@ -5,7 +5,7 @@ A numlet is an object that can sequentially form an arbitrary-precision number. 
 Field     |Size|Description
 ----------|----|-----------
 More      |1b  |whether to expect more numlets
-Fractional|1b  |whether the fragment is fractional: part of the fractional part[^integer-part]
+Fractional|1b  |whether the fragment is part of the fractional part[^integer-part]
 Fragment  |30b |integer fragments, [combined](#combining-fragments) together, form the integer part, and vice versa[^vice-versa]
 
 Both parts default to 0.
