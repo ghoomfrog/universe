@@ -5,6 +5,6 @@ The Overwrite/Insert Difference Format (OIDF) is an efficient, computer-friendly
 Field          |Size   |Description
 ---------------|-------|-----------
 Difference Type|1b     |<ol start="0"><li>Overwrite<li>Insert
-Index Length   |7b min.|The relative index at which the difference is, formatted as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md) where the first fragment is 6-bit, and subsequent fragments are 7-bit. *Relative* means that the index is relative to the end of its previous subdiff's overwriting/inserted content in this subdiff's previous snapshot. A snapshot is the state of the differentiated data after a subdiff is applied to it.
+Index Length   |7b min.|The relative index at which the difference is, formatted as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md) where the first fragment is 6-bit, and subsequent fragments are 7-bit. *Relative* means that the index is relative to the end of its previous subdiff's overwriting/inserted content in this subdiff's previous snapshot. A snapshot is the state of the differentiated data after subdiffs, up to a certain one, are applied to it.
 Difference End |8b min.|The index of the last byte in the difference, formatted as a chain with 7-bit fragments
 Difference     |8b min.|The array of bytes in the difference
