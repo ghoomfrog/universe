@@ -1,6 +1,6 @@
 # Chain
 
-A chain is a variable-sized data format, consisting of *chainlets*:
+A chain is a variable-sized data format consisting of *chainlets*:
 
 Field   |Size       |Description
 --------|-----------|-----------
