@@ -6,7 +6,7 @@ Field     |Size|Description
 ----------|----|-----------
 More      |1b  |Whether to expect more numlets
 Fractional|1b  |<ol start="0"><li>The fragment is part of the integer part.<li>The fragment is part of the fractional part.</ol>
-Fragment  |30b |Integer fragments, [combined](#combining-fragments) together, form the integer part. Fractional fragments, combined together, form the fractional part.
+Fragment  |30b |Fragments, [combined](#combining-fragments) together, form their respective part.
 
 Both parts default to 0.
 
