@@ -1,12 +1,12 @@
 # Numlet
 
-A numlet is an object that can sequentially form an arbitrary-precision number. A numlet is structured as follows:
+A numlet is an object that can form an rational arbitrary-precision number with other sequential numlets. A numlet is structured as follows:
 
-Field     |Size|Description
-----------|----|-----------
-More      |1b  |Whether to expect more numlets
-Fractional|1b  |<ol start="0"><li>The fragment is part of the integer part.<li>The fragment is part of the fractional part.</ol>
-Fragment  |30b |Fragments, [combined](#combining-fragments) together, form their respective part.
+Field     |Size         |Description
+----------|-------------|-----------
+More      |1b           |Whether to expect more numlets
+Fractional|1b           |<ol start="0"><li>The fragment is part of the integer part.<li>The fragment is part of the fractional part.</ol>
+Fragment  |$8k - 3$ bits|Fragments are [chains](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md) where the first chainlet is $8k - 3$ bits, and consequent chainlets are $8k$ bits. Fragments, [combined](#combining-fragments) together, form their respective part.<br>$k$ is any natural number.
 
 Both parts default to 0.
 
