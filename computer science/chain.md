@@ -5,4 +5,4 @@ A chain is a variable-sized data format consisting of chainlets. Here's the chai
 Field   |Size       |Description
 --------|-----------|-----------
 More    |1b         |whether to expect more chainlets
-Fragment|$8k-1$ bits|Fragments, concatenated together, form the actual data.<br><br>$k$ is any natural number.
+Fragment|$8k-1$ bits|Fragments, concatenated together, form the actual data. $k$ is any natural number.
