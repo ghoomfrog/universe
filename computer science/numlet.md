@@ -5,12 +5,10 @@ A numlet is an object that can sequentially form an arbitrary-precision number. 
 Field     |Size|Description
 ----------|----|-----------
 More      |1b  |Whether to expect more numlets
-Fractional|1b  |Whether the fragment is part of the fractional part[^integer-part]
+Fractional|1b  |<ol start="0"><li>The fragment is part of the integer part.<li>The fragment is part of the fractional part.</ol>
 Fragment  |30b |Integer fragments, [combined](#combining-fragments) together, form the integer part. Fractional fragments, combined together, form the fractional part.
 
 Both parts default to 0.
-
-[^integer-part]: otherwise part of the integer part
 
 ## Combining Fragments
 
