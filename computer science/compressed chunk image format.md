@@ -2,13 +2,13 @@
 
 Compressed Chunk Image Format (CCIF) is a lossless image format that uses advanced compression techniques. It supports a variety of color modes, and includes features such as transparency support and flexible palette definitions. It also offers faster decoding times.
 
-This document speficies CCIF 1. All chains described in this document have 8-bit chainlets.
+This document speficies CCIF 1. All [chains](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md) described in this document have 8-bit chainlets.
 
 ## Header
 
 Field                 |Size   |Description
 ----------------------|-------|-----------
-Version               |8b min.|Version + 1 as a [chain](https://github.com/ghoomy/universe/blob/main/computer%20science/chain.md)
+Version               |8b min.|Version + 1 as a chain
 Width                 |16b    |Image width + 1
 Height                |16b    |Image height + 1
 Color mode            |3b     |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
