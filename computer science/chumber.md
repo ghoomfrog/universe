@@ -7,7 +7,7 @@ Field     |Size       |Description
 Fractional|1b         |<ol start="0"><li>The fragment is part of the integer part.<li>The fragment is part of the fractional part.</ol>
 Fragment  |$8k-1$ bits|Fragments, [combined](#combining-fragments) together, form their respective part. $k$ is any natural number.
 
-The first numlet's fragment contains the sign. Both parts default to 0.
+The fragment of the first numlet can contain the sign. Both parts default to 0.
 
 ## Combining Fragments
 
