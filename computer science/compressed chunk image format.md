@@ -21,7 +21,7 @@ Macro existence       |1b     |Whether macros are defined
 
 ## Palette
 
-If the palette existence is 1, a palette definition immediately follows the header. It contains an item count + 1 as a chain followed by [chunks](#chunks). Explicit chunks in the palette can only be channel values.
+If the palette existence is 1, a palette definition immediately follows the header. It contains an item count + 1 as a chain followed by [chunks](#chunks).
 
 ## Macros
 
