@@ -2,7 +2,7 @@ Interlaced Mantissa and Exponent (IME) 3:1 is a digital rational number format b
 
 The format is a sequence of contiguous chunks composed of 3 mantissa bits followed by 1 exponent bit. The mantissa is the concatenated mantissa bits. Same thing for the exponent. Truncated or excluded bits default to 0.
 
-The mantissa and the exponent can either both be signed or both be unsigned. The signs are the least significant bits of their respective parts. A sign of 0 denotes negativity for both parts: it's like two's complement but with reversed sign roles.
+The mantissa and the exponent can independently be signed. The signs are the least significant bits of their respective parts. A sign of 0 denotes negativity for both parts: it's like two's complement but with reversed sign roles.
 
 Here's a comparison of a signed number formatted in both 64-bit floating-point and 64-bit IME 3:1. Bold bits are part of the exponent, and italicized ones are signs. The least significant bits are to the right.
 
