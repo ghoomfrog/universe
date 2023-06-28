@@ -2,6 +2,8 @@
 
 Interlaced Mantissa and Exponent (IME) is a rational number format based on standard floating point, designed to be resizable with no additional computation.
 
+Though, the format doesn't inherit NaNs and infinity. All values are arithmetic.
+
 The format is a sequence of contiguous chunks composed of 3 mantissa bits followed by 1 exponent bit. The mantissa is the reversed concatenated mantissa bits, and the exponent is the unreversed exponent bits. All bits beyond the number default to 0.
 
 The mantissa and the exponent can independently be signed. The signs are the least significant bits of their respective parts. A sign of 0 denotes negativity for both parts: it's like two's complement but with reversed sign roles.
