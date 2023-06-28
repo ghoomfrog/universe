@@ -1,3 +1,5 @@
+# Interlaced Mantissa and Exponent 3:1
+
 Interlaced Mantissa and Exponent (IME) 3:1 is a digital rational number format based on standard floating point, where the size ratio between the mantissa and exponent is 3:1. It's designed to be convertible between bit sizes with no calculations.
 
 The format is a sequence of contiguous chunks composed of 3 mantissa bits followed by 1 exponent bit. The mantissa is the concatenated mantissa bits. Same thing for the exponent. Truncated or excluded bits default to 0.
