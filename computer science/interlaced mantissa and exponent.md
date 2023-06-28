@@ -12,5 +12,3 @@ Format|Value
 ------|-----
 64-bit Floating point|*0*​***1*1111011011**0000001011110000100010111100010101110001001001000010
 64-bit IME|**0**010**0**000**0**100**0**100**0**100**1**110**1**101**1**010**1**001**0**111**1**010**1**001**0**000**1**011**1**110***1***10*1*
-
-Notice the reversed sign roles only between the mantissas of floating point and IME, because floating point uses two's complement for the mantissa but not for the exponent.
