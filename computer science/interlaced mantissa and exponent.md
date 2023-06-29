@@ -6,7 +6,7 @@ The format is a sequence of contiguous chunks composed of 3 mantissa bits follow
 
 The mantissa is obtained as 0.*m* (where *m* is the mantissa).
 
-The mantissa and the exponent can independently be signed. The signs are the least significant bits of their respective parts. Signs follow two's complement.
+The mantissa and the exponent can independently be signed. The signs are the least significant bits of their respective parts. A sign of 0 denotes positivity.
 
 Here's a comparison of a fully signed number (with both a signed mantissa and exponent) formatted in both 64-bit floating-point and 64-bit IME. Bold bits are part of the exponent, and italicized ones are signs. The least significant bits are to the right.
 
