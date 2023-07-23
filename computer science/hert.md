@@ -23,7 +23,7 @@ The processor loops through the IPL and executes the instruction under each poin
 
 When a process ends, the preceding IPL item of its IPL item points to the next item of its IPL item.
 
-The processor includes an allocation bit array that covers every allocatable chunk which is 128 blocks. The array has 268435456 bits (32MB). The processor can only cover up to 268435456 blocks (256GB) of memory.
+The processor includes an allocation bit array covering every allocatable chunk which is 128 blocks. The array has 268435456 bits (32MB). The processor can only cover up to 268435456 blocks (256GB) of memory.
 
 # Cache
 
