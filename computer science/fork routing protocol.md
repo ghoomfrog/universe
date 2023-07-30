@@ -7,8 +7,8 @@ The Fork Routing Protocol (FRP) is a routing protocol where each router is confi
 This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. The destination router sends the payload through all its output ports and its hotspot.
 
 Absolute addressing is enabled as follows:
-1. A global router is chosen as the router where addresses relative to it are considered absolute
-2. Addresses have an *origin* bit that specifies whether the address is absolute (0) or relative (1)
+1. A global router is chosen as the router where addresses relative to it are considered absolute.
+2. Addresses have an *origin* bit that specifies whether the address is absolute (0) or relative (1).
 
 Absolute addressing requires fork routers to convert the absolute address to a relative one which requires them to have their own absolute address stored for calculation. To make sure all fork routers can access each other, their second route—their reline—points to the router that points to the router that points to them: forming a circular reference.
 
