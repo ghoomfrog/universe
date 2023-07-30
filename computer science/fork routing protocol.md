@@ -4,9 +4,9 @@
 
 > **Note** All [chains](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) described in this document have 8-bit chainlets.
 
-The Fork Routing Protocol (FRP) is a routing protocol where each router is configured with one input line, two routes, an output port and a hotspot.
+The Fork Routing Protocol (FRP) is a routing protocol where each router is configured with one input line, two routes, an output port.
 
-This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. The destination router sends the payload through its output port and hotspot.
+This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. The destination router sends the payload through its output port.
 
 Absolute addressing is enabled as follows:
 1. A global router is chosen as the router where addresses relative to it are considered absolute.
