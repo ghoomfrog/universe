@@ -2,6 +2,8 @@
 
 ![Fork-Routing](https://user-images.githubusercontent.com/35694451/208344240-cae75190-51f8-4d8c-88c7-c317a69d08fa.png)
 
+> **Note** All [chains](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) described in this document have 8-bit chainlets.
+
 The Fork Routing Protocol (FRP) is a routing protocol where each router is configured with one input line, two routes, some output ports and a hotspot.
 
 This configuration allows routers to be accessed using relative addresses where each bit corresponds to a route. The destination router sends the payload through all its output ports and its hotspot.
@@ -16,7 +18,7 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 Field       |Size      |Description
 ------------|----------|-----------
-Route count |64b       |This is the number of routes in the address. 0 means that the destination is this router
-Address     |*variable*|If the address size is not 0, this field is a 7-bit-fragment [chain](https://github.com/ghoomfrog/universe/blob/main/computer%20science/chain.md) where the first bit of its content represents the origin (0 refers to the global router, and 1 refers to this router) and the remaining bits represent the routes, relative to the origin
+Route count |8b min.   |This is the number of routes in the address, as a chain. 0 means that the destination is this router.
+Address     |*variable*|If the address size is not 0, this field is a chain where the first bit of its content represents the origin (0 refers to the global router, and 1 refers to this router) and the remaining bits represent the routes, relative to the origin.
 
 Each router decrements the route count if not 0, and discards the first route bit before forwarding.
