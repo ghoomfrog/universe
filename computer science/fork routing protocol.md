@@ -16,9 +16,9 @@ Absolute addressing requires fork routers to convert the absolute address to a r
 
 ### Header
 
-Field       |Size      |Description
-------------|----------|-----------
-Route count |8b min.   |This is the number of routes in the address, as a chain. 0 means that the destination is this router.
-Address     |8b min.   |If the address size is not 0, this field is a chain where the first bit of its content represents the origin (0 refers to the global router, and 1 refers to this router) and the remaining bits represent the routes, relative to the origin.
+Field       |Size            |Description
+------------|----------------|-----------
+Route count |8b min.         |This is the number of routes in the address, as a chain. 0 means that the destination is this router.
+Address     |optional 8b min.|If the address size is not 0, this field is a chain where the first bit of its content represents the origin (0 refers to the global router, and 1 refers to this router) and the remaining bits represent the routes, relative to the origin.
 
 Each router decrements the route count if not 0, and discards the first route bit before forwarding.
