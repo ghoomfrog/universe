@@ -1,6 +1,6 @@
 # Chumber
 
-A chumber (chained number) is a rational number format consisting of numlets. Here's the numlet structure:
+A chumber (chained number) is a variable-sized rational number format consisting of numlets. Here's the numlet structure:
 
 Field     |Size       |Description
 ----------|-----------|-----------
