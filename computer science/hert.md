@@ -127,8 +127,8 @@ Immediate suboperand|18b |
 18|SBA     |Subtract the argument from AR.
 19|MLA     |Multiply AR by the argument.
 20|DVA     |Divide AR by the argument.
-21|MAN     |Extract the ISE significand from AR to AR.
-22|EXP     |Extract the ISE exponent from AR to AR.
+21|SIG     |Extract the ISE significand from BR to AR.
+22|EXP     |Extract the ISE exponent from BR to AR.
 23|ANB     |AND AR with BR.
 24|ORB     |OR AR with BR.
 25|XRB     |XOR AR with BR.
