@@ -4,6 +4,8 @@ Interlaced Significand and Exponent (ISE) is a rational number format based on s
 
 The format is a sequence of contiguous chunks composed of 3 significand bits followed by 1 exponent bit. The significand is the reversed concatenated significand bits, and the exponent is the unreversed concatenated exponent bits. All bits beyond the number default to 0.
 
+The exponent is the raw exponent plus one. This eliminates redundancies of the 0 exponent: since any significand raised to the zeroth power is always one.
+
 The mantissa is obtained as 0.*s* (where *s* is the significand).
 
 The significand and the exponent can independently be signed. The signs are the least significant bits of their respective parts. A sign of 0 denotes positivity.
