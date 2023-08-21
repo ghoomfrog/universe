@@ -1,6 +1,6 @@
 # Interlaced Significand & Exponent
 
-Interlaced Significand & Exponent (ISE) is a rational number format based on [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) (floating point), designed to be resizable with no additional computation. All values are valid by default.
+Interlaced Significand & Exponent (ISE) is a rational number format based on [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) (floating point), designed to be resizable with no special computation. All values are valid by default.
 
 The format is a sequence of contiguous chunks composed of 3 significand bits followed by 1 exponent bit. The significand is the reversed concatenated significand bits, and the exponent is the unreversed concatenated exponent bits. All bits beyond the number default to 0.
 
