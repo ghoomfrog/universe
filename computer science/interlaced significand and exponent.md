@@ -4,7 +4,7 @@ Interlaced Significand & Exponent (ISE) is a rational number format based on [IE
 
 The format is a sequence of contiguous chunks composed of 3 significand bits followed by 1 exponent bit. The significand is the reversed concatenated significand bits, and the exponent is the unreversed concatenated exponent bits. All bits beyond the number default to 0.
 
-When the significand is 0, the exponent can be used as metadata. This is similar to NaNs, except that the number is valid and should be treated as 0.
+When the significand is 0, the exponent can be used as non-standard metadata. This is similar to floating-point NaNs, except that the number is valid and should be treated as 0.
 
 The mantissa is $0.s$ where $s$ is the significand.
 
