@@ -12,7 +12,7 @@ The mantissa is $0.s$ where $s$ is the significand.
 
 The significand and the exponent can independently be signed. The signs are the least significant bits of their respective parts. A sign of 0 denotes positivity.
 
-Here's a comparison of a fully signed number (with both a signed significand and exponent) formatted in both 64-bit IEEE 754 and 64-bit ISE. **Bold** bits are part of the exponent, and *italicized* ones are signs. The least significant bits are to the right.
+Here's a comparison between the same, fully signed number (with both a signed significand and exponent) in 64-bit IEEE 754 and 64-bit ISE. **Bold** bits are part of the exponent, and *italicized* ones are signs. The least significant bits are to the right.
 
 Format         |Value
 ---------------|-----
