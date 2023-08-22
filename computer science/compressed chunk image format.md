@@ -11,7 +11,7 @@ Field                 |Size   |Description
 Version               |8b min.|Version + 1 as a chain
 Width                 |16b    |Image width + 1
 Height                |16b    |Image height + 1
-Color mode            |3b     |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Blue<li>Red-green<li>Red-blue<li>Green-blue<li>RGB
+Color mode            |3b     |<ol start="0"><li>Monochromatic<li>Red<li>Green<li>Red-Green<li>Blue<li>Red-blue<li>Green-blue<li>RGB
 Color depth*          |2b     |<ol start="0"><li>8 bits<li>16 bits<li>24 bits<li>32 bits
 Alpha mode            |1b     |Whether there is an alpha channel
 Palette existence     |1b     |Whether a palette is defined
