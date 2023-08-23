@@ -29,7 +29,7 @@ If the macro existence is 1, a macro count + 1 as a chain, and macro definitions
 
 ## Chunks
 
-Chunks are sequenced in groups of three preceded by a padding bit and three 3-bit tags that specify the type of their respective chunks in the group:
+Chunks are sequenced in groups of two preceded by two padding bits and two 3-bit tags that specify the type of their respective chunks in the group:
 
 Chunk Type       |Tag|Description
 -----------------|---|-----------
