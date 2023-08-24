@@ -1,4 +1,4 @@
-> **IMPORTANT:** I'm no longer contributing to this repository because I've moved on to another project that's comprehensive and also includes concepts from here.
+> **IMPORTANT:** I'm no longer contributing to this repository because I've moved on to another project that's more defined, structured, comprehensive and also includes concepts from here.
 
 This repository hosts scientific ideas stored as markdown files in their respective (main) topic folders: e.g. mechanics, health or computer science.
 
