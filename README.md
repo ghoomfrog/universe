@@ -1,4 +1,4 @@
-This repository hosts scientific ideas stored as markdown files in their respective (main) topic folders: e.g. mechanics, health or computer science.
+This repository hosts scientific ideas stored as markdown files.
 
 <!--If you have an idea, create a pull request with a markdown file describing it inside its respective topic folder (create the folder if it doesn't exist yet, all in lowercase without abbreviation). You can also separate your idea into multiple files inside a folder with the main document being a README.md file.
 
