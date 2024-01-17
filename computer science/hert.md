@@ -91,7 +91,7 @@ Every instruction spans a single block and is composed of two subinstructions th
 
 Name                |Size|Description
 --------------------|----|-----------
-Lingerence          |1b  |Whether to extend the execution of the current process by one instruction/cycle
+Lingerence          |1b  |Whether to extend the execution of the current process by one instruction/cycle, and increment its IPL item
 Opcode              |7b  |See [Opcodes](#instructions).
 Addressing mode     |3b  |<ol start="0"><li>Immediate — The argument* is the immediate suboperand<li>Immediately absolute — The argument is at the address that is the immediate suboperand<li>Immediately indirect — The argument is at the address at the address that is the immediate suboperand<li>Immediately relative — The argument is at the address that is IP plus the immediate suboperand<li>AR — The argument* is AR<li>AR-absolute — The argument is at the address that is AR<li>AR-indirect — The argument is at the address at the address that is AR<li>AR-relative — The argument is at the address that is IP plus AR</ol>
 Arithmetic type     |2b  |The argument and destination are:<ol start="0"><li>Unsigned integers<li>Signed** integers<li>Exponent-signed [ISE](https://github.com/ghoomy/universe/blob/main/computer%20science/interlaced%20significand%20and%20exponent.md) numbers<li>Fully signed ISE numbers</ol>
